@@ -112,3 +112,11 @@ var arr = [11,12,13,14,15,16,17,18];
 console.log(arr.join());
 console.log(arr.join("?"));
 console.log(arr.join("e"));
+
+//Method-12: isArray()
+
+var arr = [1,2,3,4,5];
+console.log(Array.isArray(arr));
+
+var arr = "12345";
+console.log(Array.isArray(arr));
